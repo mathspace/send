@@ -1,0 +1,25 @@
+{
+  "name": "send",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "files": [
+    "src",
+    "umd",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "flow": "flow check"
+  },
+  "devDependencies": {
+    "@babel/core": "7.1.5",
+    "@babel/preset-env": "7.1.5",
+    "@babel/preset-flow": "7.0.0",
+    "babel-preset-es2015-rollup": "3.0.0",
+    "flow-bin": "^0.72.0",
+    "rollup": "0.67.0",
+    "rollup-plugin-babel": "4.0.3"
+  }
+}
