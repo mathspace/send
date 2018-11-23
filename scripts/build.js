@@ -10,7 +10,7 @@ rollup
   })
   .then(function(bundle) {
     bundle.write({
-      file: 'umd/index.js',
+      file: 'dist/index.js',
       format: 'umd',
       name: 'send',
     });
