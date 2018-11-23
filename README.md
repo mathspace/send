@@ -5,7 +5,7 @@ A JavaScript client for [track](https://github.com/mathspace/track).
 ## Usage
 
 ```js
-import Analytics from 'send';
+import Analytics from '@mathspace/send';
 
 const analytics = new Analytics('http://example.com/v0', 'PUBLIC_WRITE_KEY');
 
