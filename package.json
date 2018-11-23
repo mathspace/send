@@ -6,7 +6,7 @@
   "private": true,
   "files": [
     "src",
-    "umd",
+    "dist",
     "README.md"
   ],
   "scripts": {
